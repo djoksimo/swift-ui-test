@@ -12,6 +12,8 @@ Pod::Spec.new do |s|
     
     s.requires_arc     = true
     s.swift_version    = '5.9'
+    
+    s.dependency 'ForageSDK', '~> 4.1.3'
   
     s.source_files = [
        'Sources/*.h',
