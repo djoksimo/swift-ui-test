@@ -9,8 +9,6 @@ Pod::Spec.new do |s|
     s.source           = { :git => 'https://github.com/djoksimo/swift-ui-test.git', :tag => s.version.to_s }
   
     s.ios.deployment_target = '13.0'
-    s.osx.deployment_target = '11.0'
-    s.watchos.deployment_target = '10.0'
     
     s.requires_arc     = true
     s.swift_version    = '5.9'
