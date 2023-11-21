@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = "SwiftUITestPackage"
-    s.version          = "0.0.1"
+    s.version          = "0.0.2"
     s.summary          = "Testing SwiftUI package distribution"
   
     s.homepage         = 'https://github.com/djoksimo/swift-ui-test'
